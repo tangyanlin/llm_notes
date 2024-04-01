@@ -33,4 +33,7 @@
 - 图片理解实战
 
 ### 实践中遇到的问题和解决
-- 
+- 端口映射
+ ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 38650 命令连接无响应
+将端口命令修改为 ssh -p 38650 root@ssh.intern-ai.org.cn -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -L 6006:127.0.0.1:6006 可以完成端口映射
+
