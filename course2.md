@@ -36,6 +36,10 @@
 - 端口映射
   - ssh -CNg -L 6006:127.0.0.1:6006 root@ssh.intern-ai.org.cn -p 38650 命令连接无响应
   - 将端口命令修改为 ssh -p 38650 root@ssh.intern-ai.org.cn -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -L 6006:127.0.0.1:6006 可以完成端口映射
+    - -CNg 是 ssh 命令的参数，用于创建一个 SSH 隧道并将其转换为后台运行。具体参数的含义如下：
+    - -C：启用压缩选项。通过此选项，SSH 在传输数据时会进行压缩，可以有效减少网络传输的数据量，提高传输速度。
+    - -N：指定不执行远程命令。通常情况下，ssh 连接成功后会立即执行远程服务器上的默认 Shell，但如果你只是需要建立 SSH 隧道而不需要执行远程命令，可以使用 -N 参数告诉 ssh 不要执行远程命令。
+    - -g：允许远程主机请求在该主机上监听的端口。如果没有指定该选项，那么当一个远程主机连接到创建的隧道端口时，连接会被拒绝。
 - CUDA内存不够问题
   - torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 96.00 MiB (GPU 0; 39.99 GiB total capacity; 4.06 GiB already allocated; 36.00 MiB free; 4.09 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
   - ps -aux和nvidia-smi查看进程，kill占用gpu资源的进程
