@@ -19,6 +19,11 @@
 ![image](https://github.com/tangyanlin/llm_notes/assets/2775580/6c9c4b4e-3b28-4e01-9d58-9bdae3910cc5)
 
 - 完成 浦语·灵笔2 的 图文创作 及 视觉问答 部署
+<img width="715" alt="image" src="https://github.com/tangyanlin/llm_notes/assets/2775580/a83a3db0-fc4e-4300-b6ae-eaef146a12c6">
+
+
+<img width="1030" alt="image" src="https://github.com/tangyanlin/llm_notes/assets/2775580/6508ebda-58fa-490c-8694-d66f75efaff4">
+<img width="1035" alt="image" src="https://github.com/tangyanlin/llm_notes/assets/2775580/7bc2dca1-398d-4c7e-be82-dd596ff83d65">
 
 
 - 完成 Lagent 工具调用 数据分析 Demo 部署
