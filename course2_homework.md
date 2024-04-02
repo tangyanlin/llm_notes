@@ -20,7 +20,7 @@
 
 - 完成 浦语·灵笔2 的 图文创作 及 视觉问答 部署
 <img width="715" alt="image" src="https://github.com/tangyanlin/llm_notes/assets/2775580/a83a3db0-fc4e-4300-b6ae-eaef146a12c6">
-
+<img width="651" alt="image" src="https://github.com/tangyanlin/llm_notes/assets/2775580/04fcfbae-4161-4009-941c-efe214c69193">
 
 <img width="1030" alt="image" src="https://github.com/tangyanlin/llm_notes/assets/2775580/6508ebda-58fa-490c-8694-d66f75efaff4">
 <img width="1035" alt="image" src="https://github.com/tangyanlin/llm_notes/assets/2775580/7bc2dca1-398d-4c7e-be82-dd596ff83d65">
