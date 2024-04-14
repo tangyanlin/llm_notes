@@ -78,5 +78,9 @@
 - 除了语料知识的向量数据库，茴香豆建立接受和拒答两个向量数据库，用来在检索的过程中更加精确的判断提问的相关性
 - 将上述内容都创建到向量数据库，检索过程中，茴香豆会将输入问题与两个列表中的问题在向量空间进行相似性比较，判断该问题是否应该回答，避免群聊过程中的问答泛滥。确定的回答的问题会利用基础模型提取关键词，在知识库中检索 top K 相似的 chunk，综合问题和检索到的 chunk 生成答案。
 - 运行茴香豆即可
+进阶内容可以使用远程模型方式，本地embebding检索还是需要，只是模型使用了远程的模型，只需要修改相关配置即可，可惜没有远程模型的API-KEY，只是搭建了demo，稳运行得到答案。
 ##### 截图
 ![image](https://github.com/tangyanlin/llm_notes/assets/2775580/d11b93f3-c4e4-4cb1-83ef-1fb1d215245f)
+远程模型，缺少远程模型的API_KEY
+![image](https://github.com/tangyanlin/llm_notes/assets/2775580/222e9d68-a001-40cb-879c-03d2d97b84bd)
+![image](https://github.com/tangyanlin/llm_notes/assets/2775580/66c3bff8-a3e9-4697-98c8-19c3d9577f90)
