@@ -24,3 +24,17 @@
 <img width="743" alt="image" src="https://github.com/tangyanlin/llm_notes/assets/2775580/b014342a-6dae-4d93-b5bd-68ab07fec070">
 
 
+#### Lagent
+- 轻量级开源智能体框架，让客户可以高效构建基于大语言模型的智能体
+
+![image](https://github.com/tangyanlin/llm_notes/assets/2775580/30c1781a-6725-4769-997c-941e669e5d76)
+
+#### AgentLego
+- 多模态工具包，可以简便地扩展自定义工具，组装出自己的智能体
+
+![image](https://github.com/tangyanlin/llm_notes/assets/2775580/247a0b21-370f-4661-a8db-5865aba9ff64)
+
+#### 两者关系
+![image](https://github.com/tangyanlin/llm_notes/assets/2775580/a06751c2-0c18-4154-9176-8f0a4f169c8b)
+
+
