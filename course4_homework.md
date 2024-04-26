@@ -106,6 +106,9 @@ xtuner convert merge /root/ft/model /root/ft/huggingface /root/ft/final_model
 
 ### 对话测试
 
+- 原模型会报错，未修复
+  ![Uploading image.png…]()
+
 - 整合后的模型
   - 有时候自己会陷入循环
 ![image](https://github.com/tangyanlin/llm_notes/assets/2775580/af03b7fc-850e-40a5-921d-7b0f8388a3b1)
