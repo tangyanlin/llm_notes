@@ -140,10 +140,17 @@ print(response)
 
 ### 使用LMDeploy运行视觉多模态大模型llava
 （进阶作业四）
+- 命令行
+  - 图片
 
-- 某一些线程可能会报错，在10% A100 GPU机器上跑不起来
+    ![image](https://github.com/tangyanlin/llm_notes/assets/2775580/e44bb33c-287d-49e5-ae77-180b9eda2b5e)
+  - 图片描述结果
+    
+   ![image](https://github.com/tangyanlin/llm_notes/assets/2775580/584c6b47-8635-4c36-9e45-ad9fe05b1274)
+
+- gradio界面
   
-![image](https://github.com/tangyanlin/llm_notes/assets/2775580/d6da1057-ca57-4c8f-8aab-20bd5e594e27)
+    ![image](https://github.com/tangyanlin/llm_notes/assets/2775580/c5096249-d2cd-4514-84b7-e517746e383c)
 
 
 ### 使用LMDeploy运行第三方大模型
